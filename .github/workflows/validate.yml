@@ -1,0 +1,36 @@
+name: Validate skill
+
+# Catches a broken skill structure before it ships.
+# Runs on every push and pull request that touches the skill source.
+
+on:
+  push:
+    paths:
+      - "skill/**"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "skill/**"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate and package the skill
+        run: |
+          python skill/personal-voice-creator/scripts/package_skill.py \
+            skill/personal-voice-creator /tmp/ci-build
+
+      - name: Confirm artifact was produced
+        run: test -f /tmp/ci-build/personal-voice-creator.skill
