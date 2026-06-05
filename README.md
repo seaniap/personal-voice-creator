@@ -11,8 +11,8 @@
 Generic AI writing sounds generic. **Personal Voice Creator** fixes that by guiding you through a short, conversational process and then packaging the result into a reusable skill:
 
 1. **Choose your language** — Pick English, 繁體中文, or 日本語; the whole session runs in that language.
-2. **Interview** — Claude asks a handful of questions about how you write.
-3. **Samples** — You share a few things you've written (links, pasted text, or files).
+2. **Interview** — Claude asks questions about how you write, and weaves in situational prompts ("describe your work to a stranger at dinner") to capture your natural voice in the moment.
+3. **Samples** — You share at least 3 pieces you've written across different contexts (a post, a business message, a longer piece). Cross-context patterns are the real voice markers.
 4. **Test & calibrate** — Claude drafts sample pieces; you correct them until they sound like you.
 5. **Package** — You get a `personal-voice.skill` file to install and use forever.
 
@@ -41,7 +41,7 @@ At the end, Claude produces a `personal-voice.skill` file tailored to you. Insta
 ## What you'll need
 
 - A Claude account with Skills enabled
-- A few real writing samples (the more authentic, the better)
+- At least 3 real writing samples across different contexts (post, email, longer piece — the more varied, the better)
 - 15–20 minutes for the interview and calibration
 
 ## Repository structure
