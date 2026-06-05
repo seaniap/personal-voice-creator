@@ -53,6 +53,30 @@ Examples to offer if they're stuck: feeling you're making small talk, that you'r
 
 *Action:* fetch URLs, read uploads, or use pasted text. Extract: opening/closing conventions, sentence length, example style, language mix, punctuation. These observations carry more weight than anything from Q1–Q4.
 
+Aim for **at least 3 samples across different contexts** (e.g. a social post, a business message, a longer piece). A single sample captures one mode; multiple samples reveal which patterns are consistent — those are the real voice markers.
+
+---
+
+## Situational writing prompts (use during the interview to capture live voice)
+
+These prompts get the person writing naturally *right now*, in the conversation, without overthinking. Each response is a mini-sample. Use 2–3 of them, spread across the interview — not all at once.
+
+Pick prompts that match the person's context. Keep the framing casual so they don't try to "perform":
+
+**For anyone:**
+> In 2–3 sentences, describe what you do — as if you just met someone at a dinner party and they asked.
+
+> Think of something you've been excited about lately (a project, a book, a trip, anything). Write 2–3 lines about it as if you're texting a close friend.
+
+> Imagine a friend asks you to recommend something you know well. Write the first paragraph you'd send them.
+
+**For people who write professionally:**
+> You need to follow up with a client after a meeting. Write the opening two sentences of that message.
+
+> A colleague asks why you made a certain decision recently. In a few sentences, how do you explain your reasoning?
+
+*What to extract:* sentence openers, how they handle transitions, whether they use qualifiers ("kind of", "I think", "basically"), how they end a thought, tone shifts between formal and casual. Add these directly to `voice-style.md` under a "live conversation samples" note — they often reveal patterns the person wouldn't think to mention.
+
 ---
 
 ## Optional deep-dive questions (use if they want a richer profile)

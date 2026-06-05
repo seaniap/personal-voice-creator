@@ -38,6 +38,8 @@ Cover at minimum:
 
 Adapt follow-ups to what they say. If an answer is vague, probe gently with a concrete example.
 
+**Also use situational writing prompts** (see `references/interview-guide.md`) — scatter 2–3 of them through the interview. These get the person writing naturally in the conversation itself, producing live mini-samples that often reveal more than any self-description.
+
 ### Phase 2 — Build the reference files
 
 From the answers, draft two files using the templates:
@@ -48,9 +50,11 @@ Fill the templates with their actual answers. Never leave template placeholder t
 
 ### Phase 3 — Ingest real samples
 
-If they provided URLs, fetch and read them. If they uploaded files, read them. If they pasted text, use it directly.
+If they provided URLs, fetch and read them. If they uploaded files, read them. If they pasted text, use it directly. Also include the live responses they wrote during the situational prompts in Phase 1.
 
-Extract concrete patterns: opening conventions, closing conventions, sentence length, how they use examples, language mixing, punctuation habits. Fold these observations into `voice-style.md` — real samples are far more reliable than self-description, so weight them heavily.
+Aim to collect **at least 3 samples across different contexts** (e.g. a casual post, a business message, a longer piece). A single sample captures one mode; multiple samples reveal which patterns are stable across contexts — those are the true voice markers.
+
+Extract concrete patterns: opening conventions, closing conventions, sentence length, how they use examples, language mixing, punctuation habits. Fold these observations into `voice-style.md` — real samples are far more reliable than self-description, so weight them heavily. If you only have 1–2 samples, ask for one more before proceeding.
 
 ### Phase 4 — Test and calibrate (the most important phase)
 
