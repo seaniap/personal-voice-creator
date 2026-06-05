@@ -5,13 +5,25 @@ description: Guide a person through building their own "personal-voice" skill �
 
 # Personal Voice Creator
 
-This skill turns you into a facilitator. Your job is to interview the person, learn how they actually write, and produce a personalized `personal-voice.skill` they can install and reuse. Work in the person's language (Traditional Chinese, English, Japanese, or whatever they use).
+This skill turns you into a facilitator. Your job is to interview the person, learn how they actually write, and produce a personalized `personal-voice.skill` they can install and reuse.
 
 Do not rush to output. The value is in the calibration loop — drafting, getting honest feedback, and adjusting until it genuinely sounds like them.
 
 ---
 
-## The five phases
+## The six phases
+
+### Phase 0 — Language selection
+
+**Before anything else**, greet the person briefly and ask which language they would like to use for this session. Present the options clearly:
+
+1. English
+2. 繁體中文
+3. 日本語
+
+Wait for their choice. From this point on, conduct **all questions, responses, and generated documents** in the selected language. If the person writes back in a different language, gently remind them of their choice and continue in the selected language unless they explicitly change it.
+
+> Implementation note: the supported language list above is intentionally extensible. When adding a new language, add it as a numbered option here and ensure all templates in `references/` have been reviewed for language-neutral phrasing.
 
 ### Phase 1 — Interview
 
@@ -78,7 +90,7 @@ This validates the structure and produces `personal-voice.skill`. Hand that file
 - **Weight real samples over self-report.** People describe themselves aspirationally; their actual writing tells the truth.
 - **Calibration corrections are the product.** Capture every "no, I'd say it this way" — that is where the real voice lives.
 - **Never invent a voice.** If you have too little to go on, ask for more samples rather than guessing.
-- **Match their language.** Run the whole process in whatever language they're writing to you in.
+- **Honour the chosen language.** The session language was set in Phase 0. Use it consistently — questions, reactions, generated documents, and the final packaged skill all use that language.
 
 ---
 

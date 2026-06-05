@@ -1,6 +1,6 @@
 # Interview Guide
 
-Ask these one at a time, conversationally. React briefly to each answer before moving on. Translate the questions into the person's language. The goal is to surface how they actually write, not to fill a form.
+Ask these one at a time, conversationally. React briefly to each answer before moving on. Use the language selected in Phase 0 — do not switch languages mid-interview. The goal is to surface how they actually write, not to fill a form.
 
 ---
 
