@@ -10,10 +10,11 @@
 
 Generic AI writing sounds generic. **Personal Voice Creator** fixes that by guiding you through a short, conversational process and then packaging the result into a reusable skill:
 
-1. **Interview** — Claude asks a handful of questions about how you write.
-2. **Samples** — You share a few things you've written (links, pasted text, or files).
-3. **Test & calibrate** — Claude drafts sample pieces; you correct them until they sound like you.
-4. **Package** — You get a `personal-voice.skill` file to install and use forever.
+1. **Choose your language** — Pick English, 繁體中文, or 日本語; the whole session runs in that language.
+2. **Interview** — Claude asks a handful of questions about how you write.
+3. **Samples** — You share a few things you've written (links, pasted text, or files).
+4. **Test & calibrate** — Claude drafts sample pieces; you correct them until they sound like you.
+5. **Package** — You get a `personal-voice.skill` file to install and use forever.
 
 The magic is in step 3. Every "no, I'd phrase it this way" correction is captured, because that's where your real voice lives — in the gap between how you *think* you write and how you *actually* write.
 
