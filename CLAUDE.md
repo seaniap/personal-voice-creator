@@ -13,7 +13,7 @@ The user runs the creator, gets interviewed, provides writing samples, calibrate
 ```
 .
 ├── README.md / README.zh-TW.md / README.ja.md   Docs in 3 languages (EN is canonical)
-├── BUILD_LOG.md           The making-of record (also the seed for a blog post)
+├── BUILD_LOG.md           The making-of record — local dev branch only, never on main
 ├── DESIGN.md              One-page design rationale
 ├── CLAUDE.md              This file
 ├── LICENSE                MIT
@@ -40,7 +40,17 @@ The user runs the creator, gets interviewed, provides writing samples, calibrate
   python skill/personal-voice-creator/scripts/package_skill.py skill/personal-voice-creator dist
   ```
 - **Three READMEs stay in sync.** If you change behavior, update README.md, README.zh-TW.md, and README.ja.md together. English is canonical.
-- **Append to BUILD_LOG.md** when a change is interesting enough to mention in the eventual blog post.
+- **Append to BUILD_LOG.md** when a change is interesting enough to mention in the eventual blog post. Work on the `dev` branch when updating it.
+
+## Branch workflow
+
+- **Develop on `dev`**, merge to `main` when ready, then push `main` to GitHub.
+- `dev` is local-only — never push it to remote.
+- **BUILD_LOG.md is tracked on `dev` but not on `main`.** After every `git merge dev`, check whether BUILD_LOG.md was pulled in and remove it before pushing:
+  ```bash
+  git rm --cached BUILD_LOG.md
+  git commit -m "chore: remove BUILD_LOG.md from merge"
+  ```
 
 ## Commit message style
 
